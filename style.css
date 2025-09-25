@@ -1107,6 +1107,10 @@ section {
 @media (max-width: 768px) {
   /* Navbar already handled (hamburger shows) */
 
+.logo img{
+  width: 130px;
+}
+
   /* Hero Section */
   .hero-section .container {
     flex-direction: column-reverse;
