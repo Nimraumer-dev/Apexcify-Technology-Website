@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apexcify Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- nav-bar -->
+    <nav class="nav">
+        <div class="container ">
+            <a href="#" class="logo">
+                <img src="/img/Logo.png" alt="logo">
+            </a>
+            <div class="hamburger" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="menu">
+                <ul class="link flex">
+                    <li><a href="#Home" class="links">Home</a></li>
+                    <li><a href="#About" class="links">About</a></li>
+                    <li><a href="#Service" class="links" id="hover">Service</a></li>
+                    <li><a href="#Solution" class="links" id="hover">Solution</a></li>
+                    <li><a href="#Team" class="links" id="">Team</a></li>
+                    <li><a href="#Contact" class="links" id="hover">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <div class="sidebar">
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Service">Service</a></li>
+            <li><a href="#Solution">Solution</a></li>
+            <li><a href="#Team">Team</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay" onclick="toggleMenu()"></div>
+
+    <!-- Hero Section -->
+
+    <header class="hero-section" id="Home" data-aos="fade-up">
+        <div class="container flex">
+            <div class="hero-left">
+                <h1>Em<span style="color:  #187e7d; text-shadow: 1px 1px 2px #131313;">powering </span>S<span
+                        style="color:  #187e7d; text-shadow: 1px 1px 2px #131313;">oft</span>ware <span
+                        style="color:  #187e7d; text-shadow: 1px 1px 2px #131313;">Sol</span>ution</h1>
+                <p>We build scalable, automated and innovative solutions for businesses.</p>
+                <div class="btns">
+                    <button class="btn">Get Started</button>
+                    <button class="btn" id="btn">Watch Video</button>
+                </div>
+            </div>
+            <div class="hero-right">
+                <img src="/img/heero2.png" alt="heroimg" width="40%">
+            </div>
+        </div>
+    </header>
+
+
+    <!-- About section -->
+
+    <section class="about-section" id="About" data-aos="Zoom-in">
+        <div class="container about flex">
+            <div class="about-left">
+                <img src="/img/pngwing.com (4).png" alt="" width="500">
+            </div>
+            <div class="about-right">
+                <h2>Ab<span style="color:  #187e7d; text-shadow: 1px 1px 2px #131313;">ou</span>t Ap<span
+                        style="color:  #187e7d; text-shadow: 1px 1px 2px #131313;">exci</span>fy <span
+                        style="color:  #187e7d; text-shadow: 1px 1px 2px #131313;">Tech</span>nologys</h2>
+                <p>We are a leading software development company specializing in automation, DevOps, and modern web
+                    solutions.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Service Section -->
+
+    <section class="service-section" id="Service" data-aos="fade-right">
+        <h2>Our Services</h2>
+        <div class="container card-section">
+
+            <div class="cards">
+                <i class="fa-solid fa-globe"></i>
+                <h3>Web Development</h3>
+                <p>Building responsive and modern websites with clean design and functionality</p>
+            </div>
+            <div class="cards">
+                <i class="fa-solid fa-cloud"></i>
+                <h3>Cloud & DevOps</h3>
+                <p>Optimizing software delivery with cloud solutions, CI/CD pipelines and automation.</p>
+            </div>
+            <div class="cards">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <h3>Mobile Apps</h3>
+                <p>Creating scalable and user-friendly mobile applications for Android & iOS</p>
+            </div>
+        </div>
+
+
+    </section>.
+
+
+    <!-- Solution Section -->
+
+    <Section class="solution-section" id="Solution" data-aos="flip-left">
+        <h2>Our solution</h2>
+        <div class=" container flex Solution">
+            <div class="Solution-card ">
+                <img src="/img/Automation3.jpg" alt="" onclick="openLightbox(1);">
+                <h3>Automation Tools</h3>
+                <p>Smart automation solutions to increase productivity and efficiency."</p>
+            </div>
+            <div class="Solution-card" id="border">
+                <img src="/img/cloud .jpg" alt="" id="borderimg" onclick="openLightbox(2);">
+                <h3>Cloud Infrastructure</h3>
+                <p>Scalable cloud infrastructure tailored for businesses of all sizes.</p>
+            </div>
+            <div class="Solution-card" id="border2">
+                <h3>AI & Machine Learning</h3>
+                <p>Integrating AI to deliver intelligent, data-driven business solutions.</p>
+                <img src="/img/Ai.jpg" alt="" id="borderimg2" onclick="openLightbox(3);">
+            </div>
+            <div class="Solution-card" id="border1">
+                <h3>Cybersecurity Services</h3>
+                <p>Protecting your systems with advanced security protocols and monitoring.</p>
+                <img src="/img/Cyber.jpg" alt="" id="borderimg1" onclick="openLightbox(4);">
+            </div>
+        </div>
+    </Section>
+
+
+    <!-- Team Section -->
+
+    <Section class="team-section" id="Team" data-aos="fade-up">
+        <div class="container team">
+            <h2>Meet Our Team</h2>
+            <p>Our Skilled and passionate team works together to create impactful solution</p>
+            <div class="team-card-section">
+                <div class="team-card">
+                    <img src="/img/Ethan walker.png" alt="">
+                    <h3>Ethan Walker</h3>
+                    <p>CEO & FOUNDER</p>
+                </div>
+                <div class="team-card">
+                    <img src="/img/OliviaBrooks.png" alt="">
+                    <h3>Olivia Brooks</h3>
+                    <p>Frontend Developer</p>
+                </div>
+                <div class="team-card">
+                    <img src="/img/Daniel Carter.png" alt="">
+                    <h3>Daniel Carter</h3>
+                    <p>UI/UX Designer</p>
+                </div>
+                <div class="team-card">
+                    <img src="/img/Sophia Mitchell.png" alt="">
+                    <h3>Sophia Mitchell</h3>
+                    <p>Cloud Engineer</p>
+                </div>
+            </div>
+        </div>
+    </Section>
+
+    <!-- Contact Section -->
+
+    <section class="contact-section" id="Contact" data-aos="fade-right">
+        <h2>Get IN Touch</h2>
+        <p>Get in touch with Apexify Technologys for any queries or support.</p>
+        <div class="container contact">
+            <div class="contact-left">
+                <form action="" class="form">
+                    <label for="forname"></label>
+                    <input type="text" name="name" id="" placeholder="Name" required><br><br>
+                    <label for="foremail"></label>
+                    <input type="email" name="email" id="" placeholder="Email" required><br><br>
+                    <label for="text-area"></label>
+                    <textarea name="text-area" id="" placeholder="Message" cols="40" rows="5"></textarea><br><br>
+                    <input type="submit" value="Send" placeholder="Send" class="sendbtn">
+                </form>
+            </div>
+            <div class="contact-right">
+                <div class="info-box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Address:</h3>
+                    <p>Karachi,Pakistan</p>
+                </div>
+
+                <div class="info-box">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Phone:</h3>
+                    <p>+92 3001234567</p>
+                </div>
+
+                <div class="info-box">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email:</h3>
+                    <p>apexcifytechnologys@gmail.com</p>
+                </div>
+                <div class="info-box">
+                    <i class="fa-brands fa-linkedin LinkedIn"></i>
+                    <h3>LinkedIn:</h3>
+                    <p> @ApexcifyTechnologys</p>
+                </div>
+
+            </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <!-- Logo + About -->
+            
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Service">Services</a></li>
+                    <li><a href="#Solution">Solutions</a></li>
+                    <li><a href="#Team">Team</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- Contact Info -->
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>
+                    <i class="fas fa-map-marker-alt"></i>
+                    Karachi, Pakistan
+                </p>
+                <p>
+                    <i class="fas fa-phone-alt"></i>
+                    +92 300 1234567
+                </p>
+                <p>
+                    <i class="fa-brands fa-linkedin LinkedIn"></i>
+                   @ApexcifyTechnologys
+                </p>
+            </div>
+            
+            <!-- Social Media -->
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <a href="http://m.facebook.com" class="facebook"><i class="fab fa-facebook"></i>Facebook</a>
+                <a href="https://x.com/" class="twitter"><i class="fab fa-twitter"></i>Twitter</a>
+                <a href="https://www.linkedin.com/in/nimra-umerfarooq-4842b62b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin"><i class="fab fa-linkedin"></i>LinkedIn</a>
+                <a href="www.instagram.com" class="instagram"><i class="fab fa-instagram"></i>Instagram</a>
+            </div>
+            
+            <div class="footer-about">
+                <img src="/img/logo.png" alt="Apexify Logo" class="footer-logo">
+            </div>
+        </div>
+
+        <!-- Bottom -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 Apexify Technologys. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- Lightbox Structure -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Solution Image">
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+
+
+</html>
