@@ -1,9 +1,9 @@
 let slideIndex = 1;
 let images = [
-  "/img/Automation3.jpg",
-  "/img/cloud .jpg",
-  "/img/Ai.jpg",
-  "/img/Cyber.jpg"
+  "img/Automation3.jpg",
+  "img/cloud .jpg",
+  "img/Ai.jpg",
+  "img/Cyber.jpg"
 ];
 
 // Lightbox Open
