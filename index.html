@@ -14,7 +14,7 @@
 <body>
     <!-- nav-bar -->
     <nav class="nav">
-        <div class="container ">
+        <div class="container">
             <a href="#" class="logo">
                 <img src="img/Logo.png" alt="logo">
             </a>
@@ -55,7 +55,7 @@
 
     <header class="hero-section" id="Home" data-aos="fade-up">
         <div class="container flex">
-            <div class="hero-left">
+            <div class="hero-left hero-content reveal slide-left">
                 <h1>Em<span style="color:  #187e7d; text-shadow: 1px 1px 2px #131313;">powering </span>S<span
                         style="color:  #187e7d; text-shadow: 1px 1px 2px #131313;">oft</span>ware <span
                         style="color:  #187e7d; text-shadow: 1px 1px 2px #131313;">Sol</span>ution</h1>
@@ -65,7 +65,7 @@
                     <button class="btn" id="btn">Watch Video</button>
                 </div>
             </div>
-            <div class="hero-right">
+            <div class="hero-right hero-image reveal slide-right">
                 <img src="img/heero2.png" alt="heroimg" width="40%">
             </div>
         </div>
@@ -76,10 +76,10 @@
 
     <section class="about-section" id="About" data-aos="Zoom-in">
         <div class="container about flex">
-            <div class="about-left">
+            <div class="about-left about-image reveal slide-left">
                 <img src="img/pngwing.com (4).png" alt="" width="500">
             </div>
-            <div class="about-right">
+            <div class="about-right about-text reveal slide-right">
                 <h2>Ab<span style="color:  #187e7d; text-shadow: 1px 1px 2px #131313;">ou</span>t Ap<span
                         style="color:  #187e7d; text-shadow: 1px 1px 2px #131313;">exci</span>fy <span
                         style="color:  #187e7d; text-shadow: 1px 1px 2px #131313;">Tech</span>nologys</h2>
@@ -96,17 +96,17 @@
         <h2>Our Services</h2>
         <div class="container card-section">
 
-            <div class="cards">
+            <div class="cards service-card reveal slide-up">
                 <i class="fa-solid fa-globe"></i>
                 <h3>Web Development</h3>
                 <p>Building responsive and modern websites with clean design and functionality</p>
             </div>
-            <div class="cards">
+            <div class="cards service-card reveal slide-up">
                 <i class="fa-solid fa-cloud"></i>
                 <h3>Cloud & DevOps</h3>
                 <p>Optimizing software delivery with cloud solutions, CI/CD pipelines and automation.</p>
             </div>
-            <div class="cards">
+            <div class="cards service-card reveal slide-up">
                 <i class="fa-solid fa-mobile-screen-button"></i>
                 <h3>Mobile Apps</h3>
                 <p>Creating scalable and user-friendly mobile applications for Android & iOS</p>
@@ -122,22 +122,22 @@
     <Section class="solution-section" id="Solution" data-aos="flip-left">
         <h2>Our solution</h2>
         <div class=" container flex Solution">
-            <div class="Solution-card ">
+            <div class="Solution-card solution-card reveal slide-down">
                 <img src="img/Automation3.jpg" alt="" onclick="openLightbox(1);">
                 <h3>Automation Tools</h3>
                 <p>Smart automation solutions to increase productivity and efficiency."</p>
             </div>
-            <div class="Solution-card" id="border">
+            <div class="Solution-card solution-card reveal slide-down " id="border">
                 <img src="img/cloud .jpg" alt="" id="borderimg" onclick="openLightbox(2);">
                 <h3>Cloud Infrastructure</h3>
                 <p>Scalable cloud infrastructure tailored for businesses of all sizes.</p>
             </div>
-            <div class="Solution-card" id="border2">
+            <div class="Solution-card solution-card reveal slide-down" id="border2">
                 <h3>AI & Machine Learning</h3>
                 <p>Integrating AI to deliver intelligent, data-driven business solutions.</p>
                 <img src="img/Ai.jpg" alt="" id="borderimg2" onclick="openLightbox(3);">
             </div>
-            <div class="Solution-card" id="border1">
+            <div class="Solution-card solution-card reveal slide-down" id="border1">
                 <h3>Cybersecurity Services</h3>
                 <p>Protecting your systems with advanced security protocols and monitoring.</p>
                 <img src="img/Cyber.jpg" alt="" id="borderimg1" onclick="openLightbox(4);">
@@ -153,22 +153,22 @@
             <h2>Meet Our Team</h2>
             <p>Our Skilled and passionate team works together to create impactful solution</p>
             <div class="team-card-section">
-                <div class="team-card">
+                <div class="team-card reveal slide-left">
                     <img src="img/Ethan walker.png" alt="">
                     <h3>Ethan Walker</h3>
                     <p>CEO & FOUNDER</p>
                 </div>
-                <div class="team-card">
+                <div class="team-card reveal slide-left">
                     <img src="img/OliviaBrooks.png" alt="">
                     <h3>Olivia Brooks</h3>
                     <p>Frontend Developer</p>
                 </div>
-                <div class="team-card">
+                <div class="team-card reveal slide-right">
                     <img src="img/Daniel Carter.png" alt="">
                     <h3>Daniel Carter</h3>
                     <p>UI/UX Designer</p>
                 </div>
-                <div class="team-card">
+                <div class="team-card reveal slide-right">
                     <img src="img/Sophia Mitchell.png" alt="">
                     <h3>Sophia Mitchell</h3>
                     <p>Cloud Engineer</p>
@@ -179,11 +179,11 @@
 
     <!-- Contact Section -->
 
-    <section class="contact-section" id="Contact" data-aos="fade-right">
+    <section class="contact-section " id="Contact" data-aos="fade-right">
         <h2>Get In Touch</h2>
         <p>Get in touch with Apexify Technologys for any queries or support.</p>
         <div class="container contact">
-            <div class="contact-left">
+            <div class="contact-left touch-left reveal slide-left ">
                 <form action="" class="form">
                     <label for="forname"></label>
                     <input type="text" name="name" id="" placeholder="Name" required><br><br>
@@ -194,7 +194,7 @@
                     <input type="submit" value="Send" placeholder="Send" class="sendbtn">
                 </form>
             </div>
-            <div class="contact-right">
+            <div class="contact-right touch-right reveal slide-right">
                 <div class="info-box">
                     <i class="fas fa-map-marker-alt"></i>
                     <h3>Address:</h3><p>Karachi,Pakistan</p>
@@ -219,7 +219,7 @@
 
 
     <footer class="footer">
-        <div class="container footer-content">
+        <div class="container footer-content reveal slide-up">
 
             <!-- Logo + About -->
             

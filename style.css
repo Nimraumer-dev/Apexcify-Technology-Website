@@ -978,6 +978,38 @@ section {
 
 
 
+/* Animations */
+
+
+
+/* Hidden by default */
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease;
+}
+
+/* When active */
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Specific animations */
+.slide-down { transform: translateY(-100px); }
+.slide-left { transform: translateX(-100px); }
+.slide-right { transform: translateX(100px); }
+.slide-up   { transform: translateY(100px); }
+.fade-in    { opacity: 0; }
+
+.active.slide-down,
+.active.slide-left,
+.active.slide-right,
+.active.slide-up,
+.active.fade-in {
+  opacity: 1;
+  transform: translateX(0) translateY(0);
+}
 
 
 
