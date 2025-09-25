@@ -848,14 +848,14 @@ section {
 .info-box {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 5px;
   text-align: center;
   padding: 10px
 }
 
 .info-box i {
   margin-top: 6px;
-  font-size: 30px;
+  font-size: 20px;
   color: #f6f9f8;
   text-shadow: 2px 2px 4px black;
 }
@@ -889,7 +889,7 @@ section {
 
 
 .footer {
-  background: linear-gradient(90deg,#144c6c,#101010);
+  background: linear-gradient(90deg, #144c6c, #101010);
   padding-top: 30px;
   cursor: pointer;
 }
@@ -899,16 +899,22 @@ section {
   margin-top: 1rem;
 }
 
-.footer-about p {
+/* .footer-about p {
   color: #ccc;
   font-size: 14px;
   margin-top: 8px;
-}
+} */
 
 .footer-contact p {
   color: rgb(187, 182, 182);
   font-size: 16px;
   margin-top: 12px;
+  font-weight: 300;
+  gap: 10px;
+}
+
+.footer-contact p>i{
+  gap: 10px;
 }
 
 
@@ -936,11 +942,12 @@ section {
   font-size: 16x;
   display: flex;
   margin-top: 10px;
+  font-weight: 300;
   flex-direction: row;
-  gap: 5px;
+  gap: 8px;
 }
 
-.footer-social a i{
+.footer-social a i {
   margin-top: 4px;
 }
 
@@ -961,6 +968,7 @@ section {
   color: #cfcecec7;
   text-align: center;
   font-size: 16px;
+
 }
 
 
@@ -1073,6 +1081,7 @@ section {
   .form textarea {
     width: 100%;
     max-width: 280px;
+    font-family: 'Roboto';
   }
 
 
@@ -1184,12 +1193,21 @@ section {
     margin: 0;
   }
 
+  .about-right p{
+    font-size: 1rem;
+  }
+
   .about-right h2 {
     font-size: 3.5rem;
     margin-top: 1rem;
   }
 
   /* Service Section */
+  
+  .service-section h2{
+    font-size: 2.5rem;
+  }
+  
   .card-section {
     display: flex;
     flex-direction: column;
@@ -1212,6 +1230,10 @@ section {
     gap: 2rem;
   }
 
+  .solution-section h2 {
+    font-size: 2.5rem;
+  }
+
   .Solution-card {
     width: 95%;
   }
@@ -1221,6 +1243,10 @@ section {
     grid-template-columns: 1fr;
     gap: 1.5rem;
     justify-items: center;
+  }
+
+  .team-section h2{
+    font-size: 2.5rem;
   }
 
   .team-section {
@@ -1265,7 +1291,6 @@ section {
   .info-box {
     justify-content: center;
     /* center icons + text */
-    flex-wrap: wrap;
   }
 
   .footer-content {
@@ -1283,7 +1308,7 @@ section {
 
   .footer-social a {
     margin: 6px 8px;
-   justify-content: center;
+    justify-content: center;
     /* space between icons */
   }
 
@@ -1317,7 +1342,9 @@ section {
   }
 
 
-
+.footer-bottom p{
+  font-size: 14px;
+}
 
 
 
@@ -1352,6 +1379,30 @@ section {
   .about-right h2 {
     font-size: 2.8rem;
     line-height: 3rem;
+  }
+
+  .info-box {
+    font-size: 0.8rem;
+    /* shrink overall text */
+  }
+
+  .info-box h3 {
+    margin-top: 2px;
+    font-size: 1rem;
+    /* smaller headings */
+  }
+
+  .info-box p {
+    margin-left: 3px;
+    margin-top: 6px;
+    font-size: 0.85rem;
+    /* smaller paragraph text */
+  }
+
+  .info-box i {
+    margin-top: 5px;
+    font-size: 18px;
+    /* shrink icons */
   }
 
 }
