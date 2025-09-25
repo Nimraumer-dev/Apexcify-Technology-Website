@@ -636,7 +636,7 @@ section {
 .sidebar a {
   color: #fff;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   text-decoration: none;
 }
 
@@ -913,7 +913,7 @@ section {
   gap: 10px;
 }
 
-.footer-contact p>i{
+.footer-contact p>i {
   gap: 10px;
 }
 
@@ -1193,7 +1193,7 @@ section {
     margin: 0;
   }
 
-  .about-right p{
+  .about-right p {
     font-size: 1rem;
   }
 
@@ -1203,11 +1203,11 @@ section {
   }
 
   /* Service Section */
-  
-  .service-section h2{
+
+  .service-section h2 {
     font-size: 2.5rem;
   }
-  
+
   .card-section {
     display: flex;
     flex-direction: column;
@@ -1245,7 +1245,7 @@ section {
     justify-items: center;
   }
 
-  .team-section h2{
+  .team-section h2 {
     font-size: 2.5rem;
   }
 
@@ -1261,6 +1261,11 @@ section {
     background-position: center;
     /* background image centered */
   }
+
+  .contact-section h2 {
+    font-size: 2.5rem;
+  }
+
 
   .contact {
     flex-direction: column;
@@ -1342,9 +1347,9 @@ section {
   }
 
 
-.footer-bottom p{
-  font-size: 14px;
-}
+  .footer-bottom p {
+    font-size: 14px;
+  }
 
 
 
